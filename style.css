@@ -1,0 +1,63 @@
+*{
+    /* Reset style */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 40px; /* 20 em cima/baixo e 40px nas laterais */
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul {
+    
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+body {
+    background-color: gray;
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh;
+}
+main {
+    flex-grow: 1; /* Isto faz o main crescer e ocupar todo o espaço vazio disponível */
+}
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    
+    /* Para alinhar os elementos dentro do rodapé */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 20px 40px;
+}
+
+footer ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
